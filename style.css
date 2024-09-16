@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: white;
+    background: rgb(31, 31, 31);
+    background: linear-gradient(90deg, rgba(31, 31, 31, 1) 0%, rgba(41, 41, 41, 1) 50%, rgba(20, 20, 20, 1) 100%);
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.navigator {
+    padding: 27px;
+    font-weight: 700;
+    font-size: 16px;
+    width: 80%;
+    background: rgba(100, 100, 100, 0.37);
+    box-shadow: rgb(0, 0, 0) 1px 1px 15px;
+    border-radius: 10px;
+    list-style-type: none;
+    position: fixed;
+    margin: 25px auto;
+}
+
+header {
+    margin: 0 auto;
+    justify-content: center;
+    display: flex;
+}
+
+a:hover {
+    opacity: 50%;
+    transition: ease-in-out 500ms;
+}
+
+div nav {
+    justify-content: space-around;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+}
+
+img {
+    height: 50px;
+    padding: 0;
+    margin: 0;
+}
+
+p {
+    margin: 50px 0px;
+}
+
+.container-title {
+    display: flex;
+    font-size: 75px;
+    margin: 10% auto;
+    max-width: 75%;
+}
+
+.container-text {
+    max-width: 100%;
+    margin-left: 200px;
+    font-size: 44px;
+    opacity: 50%;
+    justify-content: center;
+}
+
+.container {
+    display: inline;
+    font-size: 24px;
+    max-width: 100%;
+}
+
+.lg {
+    max-width: 85%;
+    margin: 300px auto;
+}
+
+hr {
+    max-width: 75%;
+    display: flex;
+    margin: 0 auto;
+    opacity: 50%;
+}
+
+h2 {
+    opacity: 50%;
+    margin: 45px 0 20px;
+}
+
+input {
+    max-width: 100%;
+    margin: 25px auto 0px;
+    display: inline;
+    padding: 25px;
+    width: 150px;
+    font-size: 20px;
+    font-weight: 700;
+    outline: none;
+    border-radius: 8px;
+    text-align: center;
+    background: rgba(180, 180, 180, 0.527);
+    color: rgb(252, 252, 252);
+    box-shadow: inset rgb(36, 36, 36) 2px 2px 5px;
+    border: none;
+}
+
+code {
+    padding: 2%;
+    background: rgba(128, 128, 128, 0.199);
+    border-radius: 1em;
+    box-shadow: inset rgb(36, 36, 36) 2px 2px 5px;
+}
+
+#inpstring {
+    width: 500px;
+}
+
+.btn-check {
+    margin: 13px 25px;
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    display: inline;
+    cursor: pointer;
+    height: 75px;
+    font-size: 20px;
+    font-weight: 700;
+    background: rgba(255, 255, 255, 0.466);
+    box-shadow: black 1px 1px 1px;
+}
+
+button:hover {
+    background: rgb(255, 255, 255);
+    transition: ease-in-out 750ms;
+}
+
+.error {
+    color: rgb(235, 59, 59);
+    margin: 0 0 190px;
+}
+
+.res {
+    width: 150px;
+}
+
+footer {
+    margin: 0 auto;
+    padding: 2%;
+    display: flex;
+    justify-content: center;
+    opacity: 50%;
+}
+
+
+.mark {
+    margin: 50px;
+    height: 50px;
+}

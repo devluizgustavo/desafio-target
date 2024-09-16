@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio Target</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body id="inicio">
+    <header>
+        <div class="navigator">
+            <nav>
+                <a> <img src="https://lp.targetsistemas.com.br/wp-content/uploads/2019/09/brand.png" alt="logo-target">
+                </a>
+                <a href="#inicio">Início</a>
+                <a href="#mark-fib">Fibonacci</a>
+                <a href="#mark-str">Verificar String</a>
+                <a href="#mark-sum">Resultado Soma</a>
+                <a href="#mark-logic">Descubra a Lógica</a>
+                <a href="#mark-lampad">Sala das Lampadas</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="home">
+        <div class="container-title">
+            <h1>Desafio<br><span>Target</span></h1>
+
+            <div class="container-text">
+                <p class="text">Aqui você encontrará a resolução dos 5 desafios propostos pela empresa Target.<br>
+                    <br>Confira abaixo os desafios em sequência
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <hr>
+
+    <div id="mark-fib" class="mark"></div>
+
+    <section class="fibonacci lg" id="fib">
+        <div class="container">
+            <h1>Sequência <b>Fibonacci</b></h1>
+
+            <p>
+                Dado a sequência de Fibonacci, onde se inicia por 0 e 1 e o próximo valor sempre será a soma dos 2
+                valores anteriores (exemplo: 0, 1, 1, 2, 3, 5, 8, 13, 21, 34...), escreva um programa na linguagem que
+                desejar onde, informado um número, ele calcule a sequência de Fibonacci e retorne uma mensagem avisando
+                se o número informado pertence ou não a sequência.
+            </p>
+
+            <div class="input fibonacci">
+                <h2>Solução</h2>
+                <label>Digite um Número</label>
+
+                <div class="input-fib">
+                    <input type="text" id="inp" class="fibInp">
+                    <button class="btn-check fibBtn">Checar</button>
+                </div>
+
+                <div class="error error-fibonacci">Tbm sou um erro</div>
+            </div>
+        </div>
+    </section>
+
+    <div id="mark-str" class="mark"></div>
+
+    <section class="check-string lg" id="str">
+        <div class="container">
+            <h1>Verificar <b>String</b></h1>
+
+            <p>
+                Escreva um programa que verifique, em uma string, a existência da letra <b>"a"</b>, seja maiúscula ou
+                minúscula, além de informar a quantidade de vezes em que ela ocorre.
+            </p>
+
+            <div class="input string">
+                <h2>Solução</h2>
+                <label>Digite uma Palavra</label>
+
+                <div class="input-fib">
+                    <input type="text" id="inpstring">
+                    <button class="btn-check strBtn">Checar</button>
+                </div>
+
+                <div class="error error-string">Sou um erro</div>
+            </div>
+        </div>
+    </section>
+
+    <div id="mark-sum" class="mark"></div>
+
+    <section class="result-sum lg" id="sum">
+        <div class="container">
+            <h1>Observe o Código <b>Abaixo</b></h1>
+
+            <p>
+                <code>
+                    int INDICE = 13, SOMA = 0, K = 0; enquanto K < INDICE faça { K = K + 1; SOMA = SOMA + K; } imprimir(SOMA);
+            </code>
+            </p>
+            Ao final do processamento, qual será o valor da variável SOMA?
+
+            <div class="input string">
+                <h2>Solução</h2>
+                <p>Resultado</p>
+            </div>
+
+            <div class="error error-string">Sou um erro</div>
+
+        </div>
+    </section>
+
+    <div id="mark-logic" class="mark"></div>
+
+    <section class="result-logica lg" id="logic">
+        <div class="container">
+            <h1>Descubra a Lógica e Complete o <b>Próximo Elemento</b></h1>
+
+            <h2>Solução</h2>
+            <p>
+            <ul>
+                <li>A) 1, 3, 5, 7, ___</li>
+                <li>B) 2, 4, 8, 16, 32, 64, ____</li>
+                <li>C) 0, 1, 4, 9, 16, 25, 36, ____</li>
+                <li>D) 4, 16, 36, 64, ____</li>
+                <li>E) 1, 1, 2, 3, 5, 8, ____</li>
+                <li>F) 2,10, 12, 16, 17, 18, 19, ____</li>
+            </ul>
+
+            </p>
+            <div class="error error-string">Sou um erro</div>
+
+        </div>
+    </section>
+
+
+    <div id="mark-lampad" class="mark"></div>
+
+    <section class="result-lampada lg" id="lampad">
+        <div class="container">
+            <h1>Sala das <b>Lampadas</b></h1>
+
+            <p>Você está em uma sala com três interruptores, cada um conectado a uma lâmpada em salas diferentes. Você
+                não pode ver as lâmpadas da sala em que está, mas pode ligar e desligar os interruptores quantas vezes
+                quiser. Seu objetivo é descobrir qual interruptor controla qual lâmpada. Como você faria para descobrir,
+                usando apenas duas idas até uma das salas das lâmpadas, qual interruptor controla cada lâmpada?  </p>
+
+            <div class="img">
+                <img>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            By Luiz Gustavo Bonke
+        </div>
+    </footer>
+
+
+</body>
+
+
+<script type="module" src="./main.js"></script>
+
+</html>
