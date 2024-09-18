@@ -7,7 +7,7 @@ int INDICE = 13, SOMA = 0, K = 0; enquanto K < INDICE faça { K = K + 1; SOMA = 
 let ind = 10, sum = 0, k = 0;
 
 while (k < ind) {
-    k = k + 1;
+    k += 1;
     sum += k;
 }
 
