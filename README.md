@@ -14,13 +14,13 @@
 
 - Exemplo da Sequência Fibonacci: (0, 1, 1, 2, 3, 5, 8, 13, 21, 34...)</p>
 
-### Solução: [Acessar o Código](http://google.com.br)
+### Solução: [Acessar o Código](https://github.com/devluizgustavo/desafio-target/blob/main/scripts/isFibonacci.js)
 
 ## 2-Verificar String</h2>
 
 <p>A proposta para essa etapa é que seja elaborado uma checagem de uma string digitada pelo usuário para identificar se contém a letra "a", seja minúscula, ou maiúscula. Além disso, é preciso informar a quantidade de vezes em que ela ocorre.</p>
 
-### Solução: [Acessar o Código](http://google.com.br)
+### Solução: [Acessar o Código](https://github.com/devluizgustavo/desafio-target/blob/main/scripts/checkingString.js)
 
 ## 3-Observe o Código Abaixo
 
@@ -38,7 +38,7 @@ imprimir(SOMA);
 
 <p>Ao final do processamento, qual será o valor da variável SOMA?</p>
 
-### Solução: [Acessar o Código](http://google.com.br)
+### Solução: [Acessar o Código](https://github.com/devluizgustavo/desafio-target/blob/main/scripts/resultSum.js)
 
 ## 4-Descubra a Lógica e Complete o Próximo Elemento
 
