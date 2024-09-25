@@ -2,7 +2,7 @@
 
 <p align="center">Nesse repositório você encontrará os 5 desafios propostos pela Target com as soluções de minha autoria, elaboradas com a linguagem JavaScript.</b></p>
 
-## Deploy: [Acessar a Página](http://google.com.br)
+## Deploy: [Acessar a Página](https://devluizgustavo.github.io/desafio-target/)
 
 > [!IMPORTANT]
 > Acima contém o link de acesso á página com os desafios solucionados e abaixo estão destacados os códigos de resolução para cada desafio.
